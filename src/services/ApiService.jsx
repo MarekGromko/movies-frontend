@@ -5,7 +5,6 @@ const API_ENDPOINT = "/api/v1"
 const MOVIES_URL = `${API_URL}${API_ENDPOINT}/movies`
 const REVIEWS_URL = `${API_URL}${API_ENDPOINT}/reviews`
 
-
 const api = axios.create({
     baseURL: API_URL
 })
